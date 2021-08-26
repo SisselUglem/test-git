@@ -107,3 +107,61 @@ hmtl, body {
     padding-top: 25px;
 }
 
+.container-future {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    color: gray;
+    justify-content: center;
+    text-align: start;
+ 
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.future {
+    display: flex;
+}
+
+.future-exp {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.future-exp {
+    margin-left: 100px;
+}
+
+.container-company {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: center;
+}
+
+.company {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding-bottom: 40px;
+}
+
+.logotypes{
+    display: flex;
+}
+
+.prints {
+    display: flex;
+}
+
+.webb {
+    display: flex;
+}
