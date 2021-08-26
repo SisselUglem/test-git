@@ -61,7 +61,7 @@ hmtl, body {
     color: gray;
     justify-content: center;
     text-align: start;
-    padding-left: 200px;
+    padding-left: 300px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -79,9 +79,8 @@ hmtl, body {
 .areas {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: 20px;
-    padding-top: 25px;
+    padding-top: 40px;
 }
 
 .cont-html-css{
@@ -102,5 +101,9 @@ hmtl, body {
     box-shadow: 1px 2px 8px gray;
     border-radius: 5px;
     margin: 0px;
+}
+
+.end {
+    padding-top: 25px;
 }
 
