@@ -7,11 +7,10 @@ hmtl, body {
 }
 
 .banner {
-    background-image: url("../images/IMG_3411.png");
+    background-image: url("../images/banner.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    height: 400px;
+    height: 600px;
     justify-content: center;
     color:white;
 }
@@ -24,33 +23,75 @@ hmtl, body {
 
 .rubrik {
     position: absolute;
-    margin-top: 120px;
+    margin-top: 200px;
     text-shadow:1px 2px 8px rgb(49, 49, 49);
 }
 
 .headline {
     position: absolute;
-    margin-top: 180px;
+    margin-top: 260px;
     text-align: center;
     text-shadow:1px 2px 8px rgb(49, 49, 49);
 }
 
-.goal {
+.container-presentation {
+    background-image: url(../images/me.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    color: gray;
+    justify-content: center;
+    text-align: end;
+    padding-top: 50px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+}
+
+.presentation {
+    margin-right: 150px;
+}
+
+.me {
+    border-radius: 100px;
+}
+
+.container-goal {
     color: gray;
     justify-content: center;
     text-align: start;
-    margin-left: 180px;
+    padding-left: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.headline-goals {
-    margin-top: 80px;
+.goal-exp {
+    margin-left: 100px;
 }
+
+.goal {
+    display: flex;
+    flex-direction: row;
+}
+
 
 .areas {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 25px;
+}
+
+.cont-html-css{
+    display: flex;
     flex-direction: row;
-    justify-content: start;
-    gap: 40px;
+    gap: 20px;
+}
+
+.cont-javascript{
+    text-align: center;
 }
 
 .ar {
@@ -60,5 +101,6 @@ hmtl, body {
     padding-bottom: 10px;
     box-shadow: 1px 2px 8px gray;
     border-radius: 5px;
+    margin: 0px;
 }
 
